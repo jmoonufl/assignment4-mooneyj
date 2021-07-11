@@ -28,8 +28,14 @@ header nav {
 }
 
 header a {
-  color: silver;
-  text-decoration: none;
+    color: silver;
+    text-decoration: none;
+    transition: .5s;
+}
+
+header a:hover {
+    color: red;
+    transition: .5s;
 }
 
 header li {
