@@ -68,3 +68,17 @@ header li {
     font-weight: bold;
     font-family: cursive;
 }
+
+/* ----- Position Styling ------ */
+
+.text-image-container {
+    position: relative;
+    max-width: 600px;
+}
+
+.text-container {
+    position: absolute;
+    bottom: 0;
+    color: black;
+    padding: 5px 25px;
+}
