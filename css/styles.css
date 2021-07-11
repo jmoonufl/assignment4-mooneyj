@@ -82,3 +82,18 @@ header li {
     color: black;
     padding: 5px 25px;
 }
+
+/* ----- Animations ------ */
+
+@keyframes movement {
+  from{
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.is-image {
+  animation: movement 5s infinite linear
+}
