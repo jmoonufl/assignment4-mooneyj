@@ -42,3 +42,23 @@ header li {
     display: inline-block;
     margin: 0px 30px;
 }
+
+/* ----- Body Styling ------ */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: sohne,arial,sans-serif;
+}
+
+.ls-image-left {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.ls-float-left {
+    background-color: #c4c4c4;
+    padding: 65px 25px;
+    border-radius: 50px 10px;
+    margin: 10px 0px;
+}
